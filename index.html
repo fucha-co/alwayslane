@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Always, Lane</title>
@@ -8,18 +9,31 @@
     <link href="https://fonts.googleapis.com/css?family=Lora:700|Playfair+Display" rel="stylesheet">
     <script defer src="https://pro.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-+1nLPoB0gaUktsZJP+ycZectl3GX7wP8Xf2PE/JHrb7X1u7Emm+v7wJMbAcPr8Ge" crossorigin="anonymous"></script>
     <style media="screen">
-      body {
-          font-family: "Playfair Display", "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
-      }
-      .big { font-size: 3rem; font-weight: normal; }
-      .bold { font-weight: bold; }
-      .navbar { box-shadow: 0 0px 0 0 #f5f5f5; }
-      .fa-twitter {color: #55acee;}
-    </style>
-  </head>
-  <body>
+    body {
+        font-family: "Playfair Display", "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    a:link, a {text-decoration: none !important;}
+    .big {
+        font-size: 3rem;
+        font-weight: normal;
+    }
 
-      <section class="hero is-fullheight">
+    .bold {
+        font-weight: bold;
+    }
+
+    .navbar {
+        box-shadow: 0 0px 0 0 #f5f5f5;
+    }
+
+    .fa-twitter {
+        color: #55acee;
+    }
+    </style>
+</head>
+
+<body>
+    <section class="hero is-fullheight">
         <!--div class="hero-head">
           <nav class="navbar">
             <div class="container">
@@ -58,43 +72,65 @@
           </nav>
         </div-->
         <div class="hero-body">
-          <div class="container">
-
-            <div class="columns">
-              <div class="column is-4">
-                <div class="notification has-background-white">
-                  <h1 class="big bold title">
+            <div class="container">
+                <div class="columns is-vcentered has-text-left">
+                    <div class="column is-5">
+                        <div class="notification has-background-white">
+                            <h1 class="big bold title">
                     Always, Lane
                   </h1>
-                  <!--h2 class="subtitle">
+                            <!--h2 class="subtitle">
                   </h2-->
-                </div>
-              </div>
-              <div class="column is-4 is-offset-0">
+                        </div>
+                    </div>
+                    <div class="column is-7">
+                        <div class="columns">
+                            <div class="tile is-ancestor">
+                                <div class="tile is-vertical is-12">
+                                    <div class="tile">
+                                        <div class="tile is-parent is-vertical">
+                                          <article class="tile is-child notification is-success">
+                                            <a target="_blank" href="https://stoqe.github.io/G1VE/">
+                                              <h1 class="big bold title">G1VE</h1>
+                                              <h2 class="subtitle">Giving Made Easy</h2>
+                                            </a>
+                                          </article>
 
-                <a href="/faces/">
-                  <div class="notification is-link">
-                   <h1 class="big bold title">
-                     Photos
-                   </h1>
-                   <h2 class="subtitle">
-                     Of Faces
-                   </h2>
-                  </div>
-                </a>
-              </div>
-              <div class="column is-4">
-                <div class="notification is-success">
-                  <h1 class="big bold title">
-                     Music
-                   </h1>
-                   <h2 class="subtitle">
-                     Of Life
-                   </h2>
+                                          <article class="tile is-child notification is-warning">
+                                            <a target="_blank" href="https://www.sayso.co">
+                                             <h1 class="big bold title">SAYSO</h1>
+                                             <h2 class="subtitle">Clothes Worth Wearing</h2>
+                                            </a>
+                                          </article>
+                                        </div>
+                                        <div class="tile is-parent is-vertical">
+                                            <article class="tile is-child notification is-info">
+                                              <a href="/faces/">
+                                                <h1 class="big bold title">FACES</h1>
+                                                <h2 class="subtitle">Photos</h2>
+                                              </a>
+                                            </article>
+                                            <article class="is-clearfix tile is-child notification has-background-grey">
+                                                <div class="is-pulled-right"><span class="tag is-warning">Coming Soon</span></div>
+                                                <h1 class="big bold title">Music</h1>
+                                                <h2 class="subtitle">Of Life</h2>
+                                            </article>
+                                        </div>
+                                    </div>
+                                    <div class="tile is-parent">
+                                        <article class="tile is-child notification is-danger">
+                                          <a target="_blank" href="https://www.signtime.me/">
+                                            <h1 class="big bold title">SignTime</h1>
+                                            <h2 class="subtitle">Awesome, Easy Sign Language Lessons</h2>
+                                          </a>
+                                        </article>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
         </div>
         <!--div class="hero-foot">
           <nav class="tabs is-boxed is-fullwidth">
@@ -122,7 +158,7 @@
             </div>
           </nav>
         </div-->
-      </section>
+    </section>
+</body>
 
-  </body>
 </html>
